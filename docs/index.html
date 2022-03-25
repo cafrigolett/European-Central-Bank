@@ -318,7 +318,7 @@ $(document).ready(function () {
 <p>Preliminary Longitudinal Approach . Using dates, nominal values, and type of bonds a time series was created. The bonds were grouped by type, and their corresponding curves show the progression of the ECB´s investment on a weekly basis. To evaluate a possible systematic policy from the ECB, instead of the raw investment in euros, the curves represent the percentual volume of increase of each type of bond with respect to the total investments held over the same week. If there was a strategy to support the green economy via purchasing green corporate bonds, we would expect to see a progression in which the percentage of green bonds with respect to the total bond purchases, systematically augments.</p>
 <br/>
 <p align="center">
-<img src="C:/Users/PERROMALO/OneDrive%20-%20KU%20Leuven/Desktop/GitHub%20repositories/European-Central-Bank/images/inv_plot.png" >
+<img src="images/inv_plot.png" >
 <h4 align="center">
 Figure 1: Description of Investment Progression
 </h4>
@@ -329,7 +329,7 @@ Figure 1: Description of Investment Progression
 <p>We realize the number of green bonds is very small compared to the total number of bonds bought by the bank. Regardless of that, we focused on discovering if the ECB was giving some type of preference to “green-bonds” over the rest of bonds. With the purpose of making our inferences less sensitive to outliers, we grouped similar countries with a small number of bonds into one label, for data by country, industry and bond types. As part of the descriptive analysis, we look for relationships between industry, country, and type of bond by using a correspondence analysis, plotting the first 2 factors for each of the dummy variables.</p>
 <br/>
 <p align="center">
-<img src="C:/Users/PERROMALO/OneDrive%20-%20KU%20Leuven/Desktop/GitHub%20repositories/European-Central-Bank/images/Cor_An.png" >
+<img src="images/Cor_An.png" >
 <h4 align="center">
 Figure 2: Relationship between Bond type, Country, and Industry
 </h4>
@@ -341,7 +341,7 @@ Figure 2: Relationship between Bond type, Country, and Industry
 <p>To detect if the bank is helping the companies that buy green bonds in a significant way, we will do a penalized regression technique, particularly Lasso regression, on the surplus at time 2021, with the variables already analyzed as explanatory variables (industry, country, and type of bond). Since the high number of covariates made complicated to fit a model with the dummy variables, due to possible over-fitting, we selected a group of variables before mode fitting. A Lasso Regression model was chosen due to its nature to shrink the less important coefficients to zero. In this way, if after fitting the model, the coefficient associated with green bonds is positive, we can say that the bank is supporting the green economy. We did not standardize our covariates since all of them are dummy variables. Standardizing will not bring any value, but it will make interpretation of the coefficients more difficult.</p>
 <br/>
 <p align="center">
-<img src="C:/Users/PERROMALO/OneDrive%20-%20KU%20Leuven/Desktop/GitHub%20repositories/European-Central-Bank/images/Lasso_p.png" >
+<img src="images/Lasso_p.png" >
 <h4 align="center">
 Figure 3.1: Coefficients for Lasso Regression Model
 </h4>
@@ -349,7 +349,7 @@ Figure 3.1: Coefficients for Lasso Regression Model
 <p><br/></p>
 <br/>
 <p align="center">
-<img src="C:/Users/PERROMALO/OneDrive%20-%20KU%20Leuven/Desktop/GitHub%20repositories/European-Central-Bank/images/Las_alfa.png" >
+<img src="images/Las_alfa.png" >
 <h4 align="center">
 Figure 3.2: Coefficients for Lasso Regression Model
 </h4>
@@ -366,7 +366,7 @@ Figure 3.2: Coefficients for Lasso Regression Model
 <p>Given the high correlation, a linear slope for each country could be useful to rank them. Then for every country, there is a slope and an average value of emission.</p>
 <br/>
 <p align="center">
-<img src="C:/Users/PERROMALO/OneDrive%20-%20KU%20Leuven/Desktop/GitHub%20repositories/European-Central-Bank/images/prod_plot.png" >
+<img src="images/prod_plot.png" >
 <h4 align="center">
 Figure 4: Total Emissions Related to Production and Consumption
 </h4>
@@ -374,7 +374,7 @@ Figure 4: Total Emissions Related to Production and Consumption
 <p><br/></p>
 <br/>
 <p align="center">
-<img src="C:/Users/PERROMALO/OneDrive%20-%20KU%20Leuven/Desktop/GitHub%20repositories/European-Central-Bank/images/Imagen2.png" >
+<img src="images/Imagen2.png" >
 <h4 align="center">
 Figure 5: Biplot of Given Groups Using Slope of Emission and Emission
 </h4>

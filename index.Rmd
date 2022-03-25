@@ -28,7 +28,7 @@ Using dates, nominal values, and type of bonds a time series was created. The bo
 
 <br/>
 <p align="center">
-  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\European-Central-Bank\images\inv_plot.png" >
+  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\ECB\European-Central-Bank\images\inv_plot.png" >
   <h4 align="center">Figure 1: Description of Investment Progression</h4>
 </p>
 <br/>
@@ -42,7 +42,7 @@ We realize the number of green bonds is very small compared to the total number 
 
 <br/>
 <p align="center">
-  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\European-Central-Bank\images\Cor_An.png" >
+  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\ECB\European-Central-Bank\images\Cor_An.png" >
   <h4 align="center">Figure 2: Relationship between Bond type, Country, and Industry</h4>
 </p>
 <br/>
@@ -58,14 +58,14 @@ To detect if the bank is helping the companies that buy green bonds in a signifi
 
 <br/>
 <p align="center">
-  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\European-Central-Bank\images\Lasso_p.png" >
+  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\ECB\European-Central-Bank\images\Lasso_p.png" >
   <h4 align="center">Figure 3.1: Coefficients for Lasso Regression Model</h4>
 </p>
 <br/>
 
 <br/>
 <p align="center">
-  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\European-Central-Bank\images\Las_alfa.png" >
+  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\ECB\European-Central-Bank\images\Las_alfa.png" >
   <h4 align="center">Figure 3.2: Coefficients for Lasso Regression Model</h4>
 </p>
 <br/>
@@ -92,7 +92,7 @@ Given the high correlation, a linear slope for each country could be useful to r
 
 <br/>
 <p align="center">
-  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\European-Central-Bank\images\prod_plot.png" >
+  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\ECB\European-Central-Bank\images\prod_plot.png" >
   <h4 align="center">Figure 4: Total Emissions Related to Production and Consumption</h4>
 </p>
 <br/>
@@ -100,7 +100,7 @@ Given the high correlation, a linear slope for each country could be useful to r
 
 <br/>
 <p align="center">
-  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\European-Central-Bank\images\imagen2.png" >
+  <img src="C:\Users\PERROMALO\OneDrive - KU Leuven\Desktop\GitHub repositories\ECB\European-Central-Bank\images\imagen2.png" >
   <h4 align="center">Figure 5: Biplot of Given Groups Using Slope of Emission
 and Emission</h4>
 </p>
