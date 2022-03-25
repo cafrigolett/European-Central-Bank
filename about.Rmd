@@ -1,0 +1,9 @@
+---
+title: "About This Project"
+---
+
+<div style="text-align: justify">
+
+Since the first quarter of 2016 the European Central Bank (ECB) has announce an investment policy that commits with green economy via the purchase of green bonds. To determine the effect of this economic policy, the project analysis historical data from the ECB bond-purchase records. The ECB publishes each quarter a list of all the bonds they posses, this list was uses to conduct web scrapping with python. The gathered data contained the company name, type of bond, and amount of each bond acquired by the ECB. This gathered information was used to perform a longitudinal analysis of the percentage that green bonds represent in the total bond investment from the ECB. Alternative a Lasso regression was performed to check if the green bonds were a predictor of investment.
+
+</div >
